@@ -77,4 +77,4 @@ Este proyecto está basado en el tutorial publicado en [Youtube](https://www.you
 
 
 ---
- Template construido con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+ Template gentileza involuntaria de [Seba Bogado](https://github.com/sbogado87) 😊
