@@ -12,11 +12,12 @@ import re
 
 
 def recent_25_posts(username):
-    """With the input of an account page, scrape the 25 most recent posts urls"""
+    """el input es la cuenta, se scrapea las urls de los 25 ultimos posteos"""
     url = "https://www.instagram.com/" + username + "/"
+    #la ubicacion del chromedriver.exe
     browser =  webdriver.Chrome(executable_path=r"C:\Users\pablo\Downloads\chromedriver.exe")
-
     #browser = Chrome()
+
     browser.get(url)
     post = 'https://www.instagram.com/p/'
     post_links = []
