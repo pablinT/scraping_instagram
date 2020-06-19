@@ -2,11 +2,10 @@
 
 ## Comenzando 🚀
 
-_El siguiente manual detalla los pasos a seguir para obtener el titulo y la descripcion de las preguntas realizadas en el sitio de Stackoverflow en Español._
+
 
 ### Pre-requisitos 📋
 
-_Para continuar con el instructivo se requiere tener instalado Python3, Pip y Virtualenv en tu maquina._
 
 ### Instalación 🔧
 
