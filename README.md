@@ -4,7 +4,7 @@ Como estoy asesorando a emprendedores, es de mucha utilidad investigar el feed p
 
 
 
-## Futuras mejoras 🔧
+## Futuras mejoras 🔨🔧
 * Separar los hashtag y correlacionarlos con los likes
 * Extraer los usuarios con más reacciones
 * Graficar los resultados por orden cronológico
