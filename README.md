@@ -1,6 +1,6 @@
 # Scraping utilizando Python & Selenium
 
-Como estoy asesorando a emprendedores, es de mucha utilidad investigar el feed para ver cómo mejorarlo. Estas son las primeras pruebas que hice con mi cuenta https://www.instagram.com/pablintango/
+Como estoy asesorando a emprendedores, es de mucha utilidad investigar el feed para ver cómo mejorarlo. 
 
 
 
