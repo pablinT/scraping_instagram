@@ -1,6 +1,10 @@
 # Scraping utilizando Python & Selenium
 
-Como estoy asesorando a emprendedores, es de mucha utilidad investigar el feed para ver cómo mejorarlo. 
+Muchos de mis clientes realizan operaciones a través de Instagram y es por eso que les resulta de utilidad tener un análisis rápido de su perfil.
+
+
+
+
 
 
 
@@ -16,9 +20,8 @@ Como estoy asesorando a emprendedores, es de mucha utilidad investigar el feed p
 
 ## Fuente 📄
 
-Este proyecto está basado en el tutorial https://medium.com/swlh/tutorial-web-scraping-instagrams-most-precious-resource-corgis-235bf0389b0c, donde el chabón hizo un scrapeo del instagram de su perro Ellie 🐶 https://www.instagram.com/elliecorg/
+https://medium.com/swlh/tutorial-web-scraping-instagrams-most-precious-resource-corgis-235bf0389b0c
 
-Como no me funcionaba, lo acomodé para que lo hiciera 💪
 
 
 
