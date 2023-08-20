@@ -73,21 +73,21 @@ def clean_likes(t):
 	return n_likes
 
 #obtengo las url de los ultimos 25 posteos
-pablin_urls=recent_25_posts('pablintango')
+account_urls=recent_25_posts('lara.morfi')
 
 #evaluo la funcion en cada una de las 25 urls
-pablin_details=insta_details(pablin_urls)
+account_details=insta_details(account_urls)
 
 #construyo el dataframe
-pablin=pd.DataFrame(pablin_details)
+account_df=pd.DataFrame(account_details)
 
 #creo la columna hashtags, extraigo los hashtags y convierto los likes en enteros
-pablin['hashtags']=pablin['comment'].apply(lambda x: find_hashtags(x))
-pablin['likes/views']=pablin['likes/views'].apply(lambda x: clean_likes(x))
+account_df['hashtags']=account_df['comment'].apply(lambda x: find_hashtags(x))
+account_df['likes/views']=account_df['likes/views'].apply(lambda x: clean_likes(x))
 
 #ploteo los datos
-ax = pablin.plot.bar(x='age',y='likes/views', rot=0)
+ax = account_df.plot.bar(x='age',y='likes/views', rot=0)
 plt.show()
 
 #exporto a un csv
-pablin.to_csv('informe_pablintango.csv')
+account_df.to_csv('informe_insta.csv')
